@@ -171,7 +171,8 @@ blockquote.wide { grid-column: 1 / -1; background: var(--grad-soft); }
 /* Posts */
 .posts { display: flex; flex-wrap: wrap; gap: 20px; }
 .posts .card { max-width: 420px; align-items: flex-start; }
-.snap { width: 100%; height: auto; display: block; border-radius: 12px; border: 1px solid var(--line); }
+.snap { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; border-radius: 12px; border: 1px solid var(--line); }
+.snap.focus { object-position: 50% 40%; }
 .btn.solid { background: var(--grad); color: #fff; }
 
 /* Education */
