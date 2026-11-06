@@ -193,3 +193,4 @@ blockquote.wide { grid-column: 1 / -1; background: var(--grad-soft); }
   .nav ul li:nth-child(n+4) { display: none; }
   .hero { padding: 64px 0 100px; }
 }
+blockquote p small { display:block; margin-top:6px; font-size:13.5px; color: var(--muted); }
