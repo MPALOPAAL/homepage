@@ -189,8 +189,18 @@ blockquote.wide { grid-column: 1 / -1; background: var(--grad-soft); }
 
 @media (max-width: 760px) {
   .about, .featured .cols { grid-template-columns: 1fr; }
-  .nav ul { gap: 14px; }
-  .nav ul li:nth-child(n+4) { display: none; }
+  .nav ul { gap: 12px; }
+  .nav ul a { font-size: 13px; }
+  .nav ul li:nth-child(n+5) { display: none; }
   .hero { padding: 64px 0 100px; }
 }
 blockquote p small { display:block; margin-top:6px; font-size:13.5px; color: var(--muted); }
+
+/* Projects catalogue */
+.nav ul a.active { color: var(--purple); }
+.page-hero { padding: 64px 0 72px; }
+.group { margin: 34px 0 14px; font-size: 14px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--purple); }
+.cat { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.item { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+.item b { display: block; font-size: 15.5px; margin-bottom: 4px; }
+.item p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.5; }
