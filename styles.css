@@ -55,7 +55,7 @@ a:hover { text-decoration: underline; }
 .hero {
   background: var(--grad);
   color: #fff;
-  padding: 88px 0 120px;
+  padding: 88px 0 96px;
   position: relative;
   overflow: hidden;
 }
@@ -192,7 +192,7 @@ blockquote.wide { grid-column: 1 / -1; background: var(--grad-soft); }
   .nav ul { gap: 12px; }
   .nav ul a { font-size: 13px; }
   .nav ul li:nth-child(n+5) { display: none; }
-  .hero { padding: 64px 0 100px; }
+  .hero { padding: 64px 0 72px; }
 }
 blockquote p small { display:block; margin-top:6px; font-size:13.5px; color: var(--muted); }
 
